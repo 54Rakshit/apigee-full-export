@@ -58,7 +58,7 @@ async function extractBundleInfo(api) {
       if (m) targetUrl = m[1];
     }
 
-    // ✅ Policy names + FULL XML
+    //  Policy names + FULL XML
     if (name.startsWith('apiproxy/policies/')) {
       const fileName = name.split('/').pop();
       const xml = zip.readAsText(entry);
