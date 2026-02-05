@@ -1,0 +1,18 @@
+{
+  "name": "apigee-export",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "axios": "^1.13.4",
+    "exceljs": "^4.4.0",
+    "xml2js": "^0.6.2"
+  }
+}
